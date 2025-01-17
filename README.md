@@ -1,2 +1,2 @@
-# light-detector-boto
+# light-detector-bot
 The light detector bot is constructed using two servo motors. One of the motors rests below the base of the machine and is responsible for rotating it laterally, and the other motor rides on the top of the other and allows the solar setup to rotate along the vertical axis. The solar trackers are comprised of three solar panels that are arranged in a pyramid shape towards each other. The Arduino code functions by continually comparing the readings from each of the solar inputs and rotating each of the servo motors simultaneously in the direction of the strongest reading. This allows for a smooth, single motion as the intersection point of the panels points towards the light source.
